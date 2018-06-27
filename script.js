@@ -3,6 +3,6 @@ $(document).ready(function(){
     $("iframe").hide();
   });
   $("button2").click(function(){ 
-    $("img").hide();
+    $("iframe").show();
   });
- });
+});
