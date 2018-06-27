@@ -1,6 +1,8 @@
 $(document).ready(function(){
-  $("button").click(function(){
+  $("#button1").click(function(){
     $("iframe").hide();
-   $("img").hide();
+  });
+  $("button2").click(function(){ 
+    $("img").hide();
   });
  });
