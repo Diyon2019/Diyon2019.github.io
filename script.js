@@ -1,6 +1,7 @@
 $(document).ready(function(){
   $("button").click(function(){
-   $("iframe").hide();
+   alert("Hello from my page")
+    $("iframe").hide();
    $("img").hide();
   });
  });
